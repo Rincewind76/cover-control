@@ -1,0 +1,18 @@
+# WLAN (max 10)
+wifi=MeinWLAN;passwort
+wifi=Hotspot;12345678
+
+# OTA
+ota_password=update123
+
+# LED Helligkeit
+led_brightness=80
+led_brightness_dark=15
+
+# Auto Close Cover
+AutoClose_Cover=1
+AutoClose_Time=05:00
+
+# PWM Level for DEW heaters
+dew1_level=70
+dew2_level=70
