@@ -1,0 +1,35 @@
+(module GY_BME280 (layer F.Cu) (tedit 65110001)
+  (descr "GY BME280 module, I2C 1x4 THT header right side centered, pitch 2.54 mm; board 11 x 9 mm")
+  (tags "GY BME280 I2C sensor module")
+
+  (fp_text reference REF** (at -4 6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value GY_BME280 (at -4 -6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_line (start -9.73 4.5) (end 1.27 4.5) (layer F.Fab) (width 0.12))
+  (fp_line (start 1.27 4.5) (end 1.27 -4.5) (layer F.Fab) (width 0.12))
+  (fp_line (start 1.27 -4.5) (end -9.73 -4.5) (layer F.Fab) (width 0.12))
+  (fp_line (start -9.73 -4.5) (end -9.73 4.5) (layer F.Fab) (width 0.12))
+
+  (fp_line (start -9.83 4.6) (end 1.37 4.6) (layer F.SilkS) (width 0.12))
+  (fp_line (start 1.37 4.6) (end 1.37 -4.6) (layer F.SilkS) (width 0.12))
+  (fp_line (start 1.37 -4.6) (end -9.83 -4.6) (layer F.SilkS) (width 0.12))
+  (fp_line (start -9.83 -4.6) (end -9.83 4.6) (layer F.SilkS) (width 0.12))
+
+  (fp_line (start -10.23 5.0) (end 1.77 5.0) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.77 5.0) (end 1.77 -5.0) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.77 -5.0) (end -10.23 -5.0) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -10.23 -5.0) (end -10.23 5.0) (layer F.CrtYd) (width 0.05))
+
+  (fp_circle (center 0 3.81) (end 0.6 3.81) (layer F.SilkS) (width 0.15))
+
+
+  (pad 1 thru_hole oval (at 0 3.81)   (size 2.2 1.8) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at 0 1.27)   (size 2.2 1.8) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at 0 -1.27)  (size 2.2 1.8) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 4 thru_hole oval (at 0 -3.81)  (size 2.2 1.8) (drill 1.0) (layers *.Cu *.Mask))
+
+)

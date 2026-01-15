@@ -1,0 +1,22 @@
+(kicad_symbol_lib (version 20211014) (generator pcbnew)
+  (symbol "MP1584EN_Module" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "MP1584EN_Module" (id 1) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "YourLib.pretty:MP1584EN_Module" (id 2))
+
+    (rectangle (start -12 10) (end 12 -10)
+      (stroke (width 0.15)) (fill (type background)))
+
+    (pin power_in line (at -14 6 0)  (length 2) (name "VIN+") (number "7"))
+    (pin power_in line (at -14 2 0)  (length 2) (name "VIN+") (number "8"))
+    (pin power_in line (at -14 -2 0) (length 2) (name "VIN-") (number "5"))
+    (pin power_in line (at -14 -6 0) (length 2) (name "VIN-") (number "6"))
+
+    (pin power_out line (at 14 6 180)  (length 2) (name "VCC") (number "4"))
+    (pin power_out line (at 14 2 180)  (length 2) (name "VCC") (number "3"))
+    (pin power_out line (at 14 -2 180) (length 2) (name "GND") (number "2"))
+    (pin power_out line (at 14 -6 180) (length 2) (name "GND") (number "1"))
+  )
+)

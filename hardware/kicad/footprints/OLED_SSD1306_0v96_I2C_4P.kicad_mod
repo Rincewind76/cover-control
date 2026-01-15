@@ -1,0 +1,35 @@
+(module OLED_SSD1306_0_96 (layer F.Cu) (tedit 65100001)
+  (descr "OLED 0.96\" SSD1306 I2C module, 1x4 THT header centered top, pitch 2.54 mm; board 27.54 x 27.8 mm")
+  (tags "OLED SSD1306 I2C 0.96 inch module")
+
+  (fp_text reference REF** (at 0 3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value OLED_SSD1306_0_96 (at 0 -28) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_line (start -9.96 1.27) (end 17.58 1.27) (layer F.Fab) (width 0.12))
+  (fp_line (start 17.58 1.27) (end 17.58 -26.53) (layer F.Fab) (width 0.12))
+  (fp_line (start 17.58 -26.53) (end -9.96 -26.53) (layer F.Fab) (width 0.12))
+  (fp_line (start -9.96 -26.53) (end -9.96 1.27) (layer F.Fab) (width 0.12))
+
+
+  (fp_line (start -10.06 1.37) (end 17.68 1.37) (layer F.SilkS) (width 0.12))
+  (fp_line (start 17.68 1.37) (end 17.68 -26.63) (layer F.SilkS) (width 0.12))
+  (fp_line (start 17.68 -26.63) (end -10.06 -26.63) (layer F.SilkS) (width 0.12))
+  (fp_line (start -10.06 -26.63) (end -10.06 1.37) (layer F.SilkS) (width 0.12))
+
+  (fp_line (start -10.46 1.77) (end 18.08 1.77) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 18.08 1.77) (end 18.08 -27.03) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 18.08 -27.03) (end -10.46 -27.03) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -10.46 -27.03) (end -10.46 1.77) (layer F.CrtYd) (width 0.05))
+
+  (fp_circle (center 0 0) (end 0.6 0) (layer F.SilkS) (width 0.15))
+
+  (pad 1 thru_hole oval (at 0 0)     (size 1.8 2.2) (drill 1.0) (layers *.Cu *.Mask) (net 0 ""))
+  (pad 2 thru_hole oval (at 2.54 0)  (size 1.8 2.2) (drill 1.0) (layers *.Cu *.Mask) (net 0 ""))
+  (pad 3 thru_hole oval (at 5.08 0)  (size 1.8 2.2 ) (drill 1.0) (layers *.Cu *.Mask) (net 0 ""))
+  (pad 4 thru_hole oval (at 7.62 0)  (size 1.8 2.2 ) (drill 1.0) (layers *.Cu *.Mask) (net 0 ""))
+
+)

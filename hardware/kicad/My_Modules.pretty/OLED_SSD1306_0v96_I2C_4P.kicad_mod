@@ -1,0 +1,220 @@
+(footprint "OLED_SSD1306_0v96_I2C_4P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OLED 0.96\" SSD1306 I2C module, 1x4 THT header centered top, pitch 2.54 mm; board 27.54 x 27.8 mm")
+	(tags "OLED SSD1306 I2C 0.96 inch module")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c2de1da5-686f-4ec6-9a95-661056fe1327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED_SSD1306_0_96"
+		(at 0 -28 0)
+		(layer "F.Fab")
+		(uuid "ca1fb066-f13c-497d-88b3-88a565080d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11ed5cca-1200-4f3a-bc8b-ba6955cb4872")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7364f0b5-3d1b-4acf-8d85-18ebb4a78ead")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.06 -26.63)
+		(end -10.06 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40e6bb41-acea-4c65-a6a9-a8db3cf2feaa")
+	)
+	(fp_line
+		(start -10.06 1.37)
+		(end 17.68 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dfa8f5e-cd81-4ce9-9bc5-d9866ee2b271")
+	)
+	(fp_line
+		(start 17.68 -26.63)
+		(end -10.06 -26.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df6a648a-1d1a-4d0e-ba92-9301723b65e7")
+	)
+	(fp_line
+		(start 17.68 1.37)
+		(end 17.68 -26.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80483494-e62c-4ff3-9760-5e58cfe02b00")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d97982ea-db50-4f3f-8242-81cdf1814964")
+	)
+	(fp_line
+		(start -10.46 -27.03)
+		(end -10.46 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3e443c0-e38a-4f09-a9e7-3532206a77ac")
+	)
+	(fp_line
+		(start -10.46 1.77)
+		(end 18.08 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b66a163-9916-4cab-98ca-c37aa23ab5a6")
+	)
+	(fp_line
+		(start 18.08 -27.03)
+		(end -10.46 -27.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d25d6858-e288-4e74-bb4b-c9a56a8455d2")
+	)
+	(fp_line
+		(start 18.08 1.77)
+		(end 18.08 -27.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1f3b81a-7ca1-4066-b256-591f4c3b3c65")
+	)
+	(fp_line
+		(start -9.96 -26.53)
+		(end -9.96 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76a6b9f2-0115-4854-a2b8-88354f79dd3f")
+	)
+	(fp_line
+		(start -9.96 1.27)
+		(end 17.58 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90dd4dd2-7a4e-4d60-9be0-2c1d0f75595a")
+	)
+	(fp_line
+		(start 17.58 -26.53)
+		(end -9.96 -26.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c370b28d-df30-4f28-af1a-09f5a534aed5")
+	)
+	(fp_line
+		(start 17.58 1.27)
+		(end 17.58 -26.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cff292a-bccf-4fbd-b100-babbeaf34d23")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.8 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f18b3000-ff84-47ff-80aa-240e3d5295d6")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "020b145b-0608-4c38-8bab-0ed6634aad47")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.8 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91a940ed-714d-4c39-afe2-98043f0027d4")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 1.8 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb248400-042f-4a16-a988-2a287795739a")
+	)
+	(embedded_fonts no)
+)

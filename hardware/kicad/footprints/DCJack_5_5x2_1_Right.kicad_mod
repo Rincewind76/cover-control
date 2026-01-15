@@ -1,0 +1,45 @@
+(module DCJack_5_5x2_1_Slotted_Right (layer F.Cu) (tedit 65150001)
+  (descr "DC Barrel Jack 5.5x2.1 mm, right-facing (edge), THT slotted holes 1.0x3.0 mm; Pins: Tip(+), Sleeve(GND), Switch")
+  (tags "DC jack barrel 5.5x2.1 slotted PJ-102 right THT")
+
+  (fp_text reference REF** (at 0 -6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value DCJack_5_5x2_1_Slotted_Right (at -7 6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15))))
+
+  (fp_line (start 14 -5.5) (end 0 -5.5) (layer F.Fab) (width 0.12))
+  (fp_line (start 0 -5.5) (end 0 5.5) (layer F.Fab) (width 0.12))
+  (fp_line (start 0 5.5) (end 14 5.5) (layer F.Fab) (width 0.12))
+  (fp_line (start 14 5.5) (end 14 -5.5) (layer F.Fab) (width 0.12))
+
+
+  (fp_line (start 14.2 -5.7) (end -0.2 -5.7) (layer F.SilkS) (width 0.12))
+  (fp_line (start -0.2 -5.7) (end -0.2 5.7) (layer F.SilkS) (width 0.12))
+  (fp_line (start -0.2 5.7) (end 14.2 5.7) (layer F.SilkS) (width 0.12))
+  (fp_line (start 14.2 5.7) (end 14.2 -5.7) (layer F.SilkS) (width 0.12))
+
+
+  (fp_line (start 14.7 -6.2) (end -0.7 -6.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -0.7 -6.2) (end -0.7 6.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -0.7 6.2) (end 14.7 6.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 14.7 6.2) (end 14.7 -6.2) (layer F.CrtYd) (width 0.05))
+
+
+  (fp_line (start 14.0 -3) (end 17.0 -3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 17.0 -3) (end 17.0 3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 17.0 3) (end 14.0 3) (layer Dwgs.User) (width 0.12))
+  (fp_line (start 14.0 3) (end 14.0 -3) (layer Dwgs.User) (width 0.12))
+  (fp_text user "Board edge" (at 14.0 4) (layer Dwgs.User)
+    (effects (font (size 0.8 0.8) (thickness 0.12))))
+
+
+
+  (pad 1 thru_hole oval (at 0.0 0.0) (size 2.6 4.2) (drill oval 1.0 3.0) (layers *.Cu *.Mask))
+
+
+  (pad 2 thru_hole oval (at 6.2 0.0) (size 2.6 4.2) (drill oval 1.0 3.0) (layers *.Cu *.Mask))
+
+
+  (pad 3 thru_hole oval (at 3.0 4.7) (size 4.2 2.6) (drill oval 3.0 1.0) (layers *.Cu *.Mask))
+
+)

@@ -1,0 +1,220 @@
+(footprint "GY_BME280_AZ_4P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GY BME280 module, I2C 1x4 THT header right side centered, pitch 2.54 mm; board 11 x 9 mm")
+	(tags "GY BME280 I2C sensor module")
+	(property "Reference" "REF**"
+		(at -4 6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "220e07bd-6ca4-475b-8199-3201aa63f673")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GY_BME280"
+		(at -4 -6 0)
+		(layer "F.Fab")
+		(uuid "34013140-5864-44ed-b8c9-f9ea408950b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15842f4b-fc4e-46e4-8ddc-620f4a353b58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c33aaaa6-ad5f-408b-aaf7-8983f232ddc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.83 -4.6)
+		(end -9.83 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a95c6186-0506-4c26-84b1-44dc448b2c37")
+	)
+	(fp_line
+		(start -9.83 4.6)
+		(end 1.37 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e531613-114a-43fd-8df9-0be0d2b2a00e")
+	)
+	(fp_line
+		(start 1.37 -4.6)
+		(end -9.83 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1239988-0617-4254-9351-db91e3109301")
+	)
+	(fp_line
+		(start 1.37 4.6)
+		(end 1.37 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9064fca6-8a6c-4d20-aac8-7107b772e338")
+	)
+	(fp_circle
+		(center 0 3.81)
+		(end 0.6 3.81)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7684ad44-05ad-4cf8-a42a-3fb3929c6347")
+	)
+	(fp_line
+		(start -10.23 -5)
+		(end -10.23 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "924165e6-01dc-4176-825a-44d5a5463fe3")
+	)
+	(fp_line
+		(start -10.23 5)
+		(end 1.77 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd8084a2-a4f4-48fb-a4e6-3f1efec2d187")
+	)
+	(fp_line
+		(start 1.77 -5)
+		(end -10.23 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8183935-8c58-4c17-ae92-056940422a6f")
+	)
+	(fp_line
+		(start 1.77 5)
+		(end 1.77 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "047d6194-fd1f-4b16-96ec-2860d5c63c46")
+	)
+	(fp_line
+		(start -9.73 -4.5)
+		(end -9.73 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0634391e-a98a-4e29-a492-9bc4a5b51fc1")
+	)
+	(fp_line
+		(start -9.73 4.5)
+		(end 1.27 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b0d2457-d107-4aef-af47-ade5493650cd")
+	)
+	(fp_line
+		(start 1.27 -4.5)
+		(end -9.73 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b4655ae-2ee8-4d06-95b7-1b51580318de")
+	)
+	(fp_line
+		(start 1.27 4.5)
+		(end 1.27 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "201818d2-bead-425e-9a30-dc71a8f38fbf")
+	)
+	(pad "1" thru_hole oval
+		(at 0 3.81)
+		(size 2.2 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d53a518-5bf1-415c-af0b-da65834e94e0")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.27)
+		(size 2.2 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74b5999b-2343-4c90-97a0-45733b73db39")
+	)
+	(pad "3" thru_hole oval
+		(at 0 -1.27)
+		(size 2.2 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27d23680-add9-416d-87c2-234fad2f4b1d")
+	)
+	(pad "4" thru_hole oval
+		(at 0 -3.81)
+		(size 2.2 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b832627-2de7-4eb3-b214-70986c0df4bb")
+	)
+	(embedded_fonts no)
+)
