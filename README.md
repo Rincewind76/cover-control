@@ -88,17 +88,19 @@ Two dew heaters with 12V specification can be attached, in my case I have one fo
 
 The Webserver is based on the ASyncWebserver libraries - quite simple but effective. 
 
-The main page looks like this and can be accessed by http://<IP of Cover Control> :
+The main page looks like this and can be accessed by http://(-IP of Cover Control-)/ :
 
 ![Webserver Main](images/webserver_main.png)
 
 All necessary information is stored there and updated each 2 seconds.
 
-As mentioned before, the logging feature is no longer available via USB due to the communication to the cover, therefore you can access the logged events via the route http://<IP of Cover Control>/log
+As mentioned before, the logging feature is no longer available via USB due to the communication to the cover, therefore you can access the logged events via the route http://(-IP of Cover Control-)/log
 
 ![Webserver Main](images/webserver_log.png)
 
 I found it as a pleasant surprise, that the LOLIN S3 Pro has a SD-card reader onboard - so all the configuration is stored in a textfile "config.txt" on the SD-card. The initial version is part of this repository. It can also be updated via Web-Interface - no need to get off the couch ;)
+
+Adress to this page is http://(-IP of Cover Control-)/config
 
 ![Webserver Main](images/webserver_config.png)
 
@@ -109,10 +111,23 @@ All in all the software is still below 1MB Flash - so plenty of headroom for mor
 
 # The result - including housing
 OK - for the housing my patience was already quite low - so it does not win any beauty prices...
-But it is functional - please note, that the tempreature sensor is separated from the rest of the electronics, so that any heating of components does not affect (too much) the measurement of the surrounding temperature.
+
+But it is functional - please note, that the temperature sensor is physically separated from the rest of the electronics, so that any heating of components does not affect (too much) the measurement of the surrounding temperature.
 
 ![Cover Control Housing](images/cover_control_full.jpg)
 
 The OLED display was initially only a optional feature, but actually I do most of the adjustments with the information provided there:
 
 ![Cover Control OLED](images/cover_control_oled.jpg)
+
+# In the end
+I have used this device now for several nights - no problem discovered.
+
+You can freely use this project for your needs (as long as it is non commercial). You have all necessary information here:
+- KiCad Project files with schematic and PCB layout
+- Exported Gerber Files with bottom layer, top silkscreen, edge cuts and drill files
+- CNC files for Makera Carvera Air (or compatible)
+- 3MF Files for housing - including the source f3D file for Fusion360
+- All Software files incuding platformIO.ini to build the executable
+
+Have fun and clear skies!
