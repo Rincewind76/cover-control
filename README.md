@@ -102,7 +102,7 @@ I found it as a pleasant surprise, that the LOLIN S3 Pro has a SD-card reader on
 
 Adress to this page is http://(-IP of Cover Control-)/config
 
-![Webserver Main](images/webserver_config.png)
+![Webserver Main](images/webserver_cfg.png)
 
 As you can see, you can define some basic behaviour - and also access data to WiFi networks (max 10). It automatically selects the strongest network and connects to this - including retry, in case connection gets lost. The format ist quite simple: `wifi=SSID;password` - each wifi network gets a new line. On this page you can also scan for networks to find the strongest one.
 
