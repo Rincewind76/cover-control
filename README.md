@@ -58,9 +58,9 @@ I created the schematic and PCB in Kicad.  All files stored in subfolder hardwar
 Since I am not very good at soldering, therefore the design has only big components, no SMD. To keep it simple, I only wanted a single sided PCB, no Vias, no connections on top layer necessary.
 There is only one palce, where sections of the ground plane is connected via the switches - but this seems to be the case in all switches of this form factor.
 As I have a Carvera Air desktop CNC, I made the PCB by myself - the results are below
-!(images/pcb_bottom.png)
+![PCB_Bottom](images/pcb_bottom.png)
 and the final assembled version looks like this:
-!(images/pcb_assembled.png)
+![PCB_Top](images/pcb_assembled.png)
 
 After a short check, nothing seems to burn or explode after applying 12V - I went for the next part: software
 A small hint: the buck converter is not fixed to 5V - so I recommend to solder that one first, then apply 12V and adjust the poti on the buck converter to get the desired 5V out of it, only then continue with the rest of the components. Otherwise there is the risk to damage components if they see more than the 5V.
@@ -73,7 +73,7 @@ All further updates have to be applied via the OTA method, or by manually bringi
 # The result - including housing
 OK - for the housing my patience was already quite low - so it does not win any beauty prices...
 But it is functional - please note, that the tempreature sensor is separated from the rest of the electronics, so that any heating of components does not affect (too much) the measurement of the surrounding temperature.
-!(images/cover_control_full.jpg)
+![Cover Control Housing](images/cover_control_full.jpg)
 
 The OLED display was initially only a optional feature, but actually I do most of the adjustments with the information provided there:
-!(images/cover_control_oled.jpg)
+![Cover Control OLED](images/cover_control_oled.jpg)
