@@ -104,7 +104,9 @@ Adress to this page is http://(-IP of Cover Control-)/config
 
 ![Webserver Main](images/webserver_config.png)
 
-As you can see, you can define some basic behaviour - and also access data to WiFi networks (max 10). It automatically selects the strongest network and connects to this - including retry, in case connection gets lost.
+As you can see, you can define some basic behaviour - and also access data to WiFi networks (max 10). It automatically selects the strongest network and connects to this - including retry, in case connection gets lost. The format ist quite simple: `wifi=SSID;password` - each wifi network gets a new line. On this page you can also scan for networks to find the strongest one.
+
+The `ota_password=password` is also quite important - this has to match the entry in the platformIO.ini
 
 All in all the software is still below 1MB Flash - so plenty of headroom for more improvements.
 
